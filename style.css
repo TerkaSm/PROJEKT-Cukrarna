@@ -44,6 +44,7 @@ body {
 	margin: 0 auto;
 	font-family: 'Lora', serif;
 	font-size: 18px;
+	line-height: 1.5;
 	color: #242424
 }
 
@@ -54,6 +55,11 @@ h1, h2, h3 {
 h2 {
 	color: #3e606b;
 	font-size: 36px;
+}
+
+h3 {
+	color: #3e606b;
+	font-size: 18px;
 }
 
 /* ******* Hlavička ******* */
@@ -141,9 +147,13 @@ h2 {
 	flex: 1 0 50%;
 }
 
+.leva h2 {
+	margin-top: 0;
+}
+
 
 .tlacitko {
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-left: 5px;
 }
 
@@ -166,3 +176,55 @@ h2 {
 img {
 	display: block;
 }
+
+
+
+/* ***** sekce Dnešní nabídka ***** */
+
+.nabidka {
+	display: flex;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding-top: 80px;
+}
+
+.text {
+	flex: 1 0 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.text h2 {
+	margin-top: 0;
+}
+
+.produkty {
+	display: flex;
+	flex: 1 0 100%;
+	max-width: 1100px;
+	margin: 0px auto 80px auto;
+	justify-content: space-between;
+}
+
+.produkt {
+	flex: 1 0 20%;
+	background-color: #fff;
+	margin-right: 30px;
+}
+
+.produkt img {
+	max-width: 250px;
+}
+
+.produkt h3 {
+	margin: 20px;
+	text-align: center;
+}
+
+.produkt p {
+	margin: 20px;
+}
+
+
+
