@@ -117,7 +117,7 @@ h3 {
 .obsah {
 	max-width: 1100px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 80px 0;
 }
 
 .hero h1 {
@@ -129,7 +129,7 @@ h3 {
 .hero p {
 	font-size: 24px;
 	font-style: italic;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 }
 
 
@@ -175,6 +175,7 @@ h3 {
 
 img {
 	display: block;
+	border-radius: 5px;
 }
 
 
@@ -211,10 +212,14 @@ img {
 	flex: 1 0 20%;
 	background-color: #fff;
 	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: #b5b5b5 1px 1px 5px;
 }
 
 .produkt img {
 	max-width: 250px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 .produkt h3 {
@@ -227,4 +232,23 @@ img {
 }
 
 
+/* ****** sekce Náš přístup k pečení ****** */
 
+.peceni {
+	display: flex;
+	max-width: 1100px;
+	margin: 80px auto;
+}
+
+/* ********** Patička ********** */
+
+.paticka {
+	color: #fff;
+	background-color: #303339;
+	text-align: center;
+	padding: 30px;
+}
+
+.paticka p {
+	margin: 0;
+}
