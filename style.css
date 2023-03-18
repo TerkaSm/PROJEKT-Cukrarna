@@ -26,10 +26,53 @@ html { box-sizing: border-box; }
 	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
+
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+
 */
 
 
 body {
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	color: #242424
+}
+
+.hlavicka {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+}
+
+.logo {
+	width: 170px;
+	margin: 30px 0;
+}
+
+.menu {
 	margin: 0;
+	list-style: none;
+	text-align: center;
+
+	display: flex;
+}
+
+.menu li {
+	padding: 10px 15px;
+}
+
+.menu a {
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.menu a:hover {
+	color: #fff;
+	background-color: #f195b2;
+	border-radius: 20px;
 }
 
