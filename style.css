@@ -216,8 +216,12 @@ img {
 	box-shadow: #b5b5b5 1px 1px 5px;
 }
 
+.ctyri {
+	margin-right: 0;
+}
+
 .produkt img {
-	max-width: 250px;
+	max-width: 100%;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 }
